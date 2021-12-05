@@ -1,0 +1,11 @@
+1. Create a layout for the screen
+2. Create a class for the 2 paddles
+   2.1 Assign the starting positions to the pads at X = -280 for paddle 1 and X = 280 for paddle 2
+   2.1 Key bindings for paddle 1 and paddle 2
+3. Create a ball class
+   3.1 Assign shape, color
+   3.2 Assign starting position on Y axis at X = 0
+   3.3 Chart a random goto path towards paddle 2 (or randomize paddle too)
+4. Game alg
+   4.1 If path and paddle collieds before balls distance > 280 (assuming paddle 2), then char a new path
+5. Create a scoreboard
