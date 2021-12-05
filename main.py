@@ -16,10 +16,10 @@ paddle_r = Paddle((350,0))
 ball = Ball()
 
 screen.listen()
-screen.onkey(paddle_r.up,"o")
-screen.onkey(paddle_r.down,"l")
-screen.onkey(paddle_l.up,"q")
-screen.onkey(paddle_l.down,"a")
+screen.onkey(paddle_r.up,"Up")
+screen.onkey(paddle_r.down,"Down")
+screen.onkey(paddle_l.up,"a")
+screen.onkey(paddle_l.down,"z")
 
 game_on = True
 sleep_decrement = 0.0
